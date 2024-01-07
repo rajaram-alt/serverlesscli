@@ -140,7 +140,7 @@ def runoutputlog(data,input1):
     print(stdout)
     print(stderr)
 
-############################# runoutputlog ################################# 
+############################# scheduled_task ################################# 
 def scheduled_task(data):
     readdb(data)
     runoutputlog(data,'process_one')
